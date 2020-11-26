@@ -25,15 +25,6 @@ namespace Geometry
         {
             get{ return height * 2 + width * 2; }
         }
-        public void SetWidth(double width)
-        {
-            this.width = width;
-        }
-
-        public void SetHeight(double height)
-        {
-            this.height = height;
-        }
     }
 
     class Square : Polygone
@@ -42,14 +33,6 @@ namespace Geometry
         public override double area
         {
             get { return cote * 4; }
-        }
-        public void SetWidth(double width)
-        {
-            cote = width;
-        }
-        public void SetHeight(double height)
-        {
-            cote = height;
         }
     }
 }
